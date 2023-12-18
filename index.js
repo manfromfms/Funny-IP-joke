@@ -13,11 +13,11 @@ app.get('/generate', async (req, res) => {
     
     const query = req.query;
     
-    const ipAddress = req.connection.remoteAddress;
+    const clientIp = req.ip;
     
     ctx.font = '30px Arial';
     
-    ctx.fillText(ipAddress, 50, 50);
+    ctx.fillText(`IP: ${clientIp}`, 50, 50);
     
     const buffer = canvas.toBuffer('image/png');
     
