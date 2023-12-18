@@ -1,0 +1,15 @@
+{
+  "name": "funny-ip-joke",
+  "version": "1.0.0",
+  "description": "Funny joke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "n0rmchell",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.18.2"
+  }
+}
